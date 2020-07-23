@@ -21,7 +21,7 @@ function MediaGrid(props:IMediaGridProps) {
                 setItemArray(response.message)
                 console.log(response.message)
             })
-            .catch(() => console.log("it didn't work")
+            .catch(() => console.log("invalid dog breed")
             );
 
     },[props.SearchQuery] );
