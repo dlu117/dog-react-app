@@ -31,7 +31,7 @@ function MediaGrid(props:IMediaGridProps) {
     var Cards: JSX.Element[] = [];
     
 
-  if(ItemArray.length > 100){  
+  if(ItemArray.length > 50){  
       ItemArray.forEach((el: IState, i: Number) => {
         if (!el ) {
             return;
