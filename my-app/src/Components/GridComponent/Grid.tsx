@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import MediaCard from '../MediaCardComponent/MediaCard';
+import MediaCard from '../CardComponent/Card';
 import { Grid } from '@material-ui/core';
-import './MediaGrid.css';
+import './Grid.css';
+import { indigo } from '@material-ui/core/colors';
 
 interface IState {
     image: string[];
@@ -26,7 +27,14 @@ function MediaGrid(props:IMediaGridProps) {
 
     },[props.SearchQuery] );
 
+    console.log("box");
+    console.log(ItemArray);
+    
+    
+    
     var Cards: JSX.Element[] = [];
+    
+   // if(ItemArray == ){
     ItemArray.forEach((el: IState, i: Number) => {
         if (!el ) {
             return;
@@ -35,7 +43,7 @@ function MediaGrid(props:IMediaGridProps) {
             <Grid key={"card_"+i} item sm={6} md={2} lg={3} className="MediaGridCard">
              <MediaCard ImageUrl={el as unknown as string} />
             </Grid>)
-    })
+    })//}
 
 
     return (

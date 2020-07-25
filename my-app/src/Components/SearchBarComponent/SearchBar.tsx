@@ -21,7 +21,7 @@ function SearchBar(props: ISearchBarProps) {
         console.log(SearchQuery);
 
         if (SearchQuery?.length !== 0 && SearchQuery !== null && SearchQuery !== "") {
-            let UserInput: IUserInput = {
+            let UserInput : IUserInput = {
                 SearchQuery: SearchQuery
             }
            props.SetUserInput(UserInput);
@@ -41,12 +41,13 @@ function SearchBar(props: ISearchBarProps) {
                     error={HasFocus && SearchQuery === ""}
                     onClick={() => setHasFocus(true)}
                     value={SearchQuery}
+                    fullWidth = {true}
                     onChange={e => handleSearchQueryChange(e.target.value)}
                 />
             </Grid>
        
             <Grid item xs={6} sm={3}>
-                <Button variant="contained" color="primary" onClick={handleSubmit}>
+                <Button variant="contained" onClick={handleSubmit} style = {{backgroundColor: "#606060"}}>
                     Search
                 </Button>
             </Grid>
