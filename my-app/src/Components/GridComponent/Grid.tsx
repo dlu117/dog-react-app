@@ -30,8 +30,9 @@ function MediaGrid(props:IMediaGridProps) {
  
     var Cards: JSX.Element[] = [];
     
-  // if(typeof(Ite){
-    ItemArray.forEach((el: IState, i: Number) => {
+
+  if(ItemArray.length > 100){  
+      ItemArray.forEach((el: IState, i: Number) => {
         if (!el ) {
             return;
         }
@@ -39,7 +40,7 @@ function MediaGrid(props:IMediaGridProps) {
             <Grid key={"card_"+i} item sm={6} md={2} lg={3} className="MediaGridCard">
              <MediaCard ImageUrl={el as unknown as string} />
             </Grid>)
-    })//}
+    }) }
 
 
     return (
