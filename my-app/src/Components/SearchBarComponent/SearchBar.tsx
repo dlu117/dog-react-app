@@ -36,7 +36,7 @@ function SearchBar(props: ISearchBarProps) {
                 <TextField
                     required
                     id="outlined-required"
-                    label="Enter dog breed"
+                    label="Enter dog breed such as poodle"
                     variant="outlined"
                     error={HasFocus && SearchQuery === ""}
                     onClick={() => setHasFocus(true)}
@@ -44,6 +44,7 @@ function SearchBar(props: ISearchBarProps) {
                     fullWidth = {true}
                     onChange={e => handleSearchQueryChange(e.target.value)}
                 />
+            
             </Grid>
        
             <Grid item xs={6} sm={3}>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import MediaCard from '../CardComponent/Card';
 import { Grid } from '@material-ui/core';
 import './Grid.css';
-import { indigo } from '@material-ui/core/colors';
+
 
 interface IState {
     image: string[];
@@ -14,7 +14,6 @@ interface IMediaGridProps {
 
 function MediaGrid(props:IMediaGridProps) {
     const [ItemArray, setItemArray] = useState<IState[]>([{ image: []}]);
-
     useEffect(() => {
         fetch('https://dog.ceo/api/breed/'+ props.SearchQuery + '/images')
             .then(response => response.json())
@@ -23,18 +22,15 @@ function MediaGrid(props:IMediaGridProps) {
                 console.log(response.message)
             })
             .catch(() => console.log("invalid dog breed")
+            
             );
-
+       
     },[props.SearchQuery] );
 
-    console.log("box");
-    console.log(ItemArray);
-    
-    
-    
+ 
     var Cards: JSX.Element[] = [];
     
-   // if(ItemArray == ){
+  // if(typeof(Ite){
     ItemArray.forEach((el: IState, i: Number) => {
         if (!el ) {
             return;
