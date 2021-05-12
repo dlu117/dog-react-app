@@ -12,4 +12,18 @@ continuous deployment to create releases. The setting of this can be found in th
 ## Release Piplines 
 Any new commits to the master branch will enable a continuous deployment to Azure. 
 
+# USE IN ACTION 
+
+1. First Page
+[![dfgdfgfdgdfgdfgfdgdfgfdg.jpg](https://i.postimg.cc/wTyhkN4K/dfgdfgfdgdfgdfgfdgdfgfdg.jpg)](https://postimg.cc/8jGJp7Vw)
+
+2. Type dog breed For example:  beagle, boxer, poodle
 [![sdfsdfsdfsdfsdjgfdjgfjkghksjhdgjsdgsdg.jpg](https://i.postimg.cc/KvSYdgvh/sdfsdfsdfsdfsdjgfdjgfjkghksjhdgjsdgsdg.jpg)](https://postimg.cc/BtpsFbKm)
+
+3. No match reurns blank page
+[![fsfdsdfdsfsdfsdfsdf.jpg](https://i.postimg.cc/3JsbjYBB/fsfdsdfdsfsdfsdfsdf.jpg)](https://postimg.cc/QHqbhLv9)
+
+# Reflection
+ As this application relies on the breed provided by the dog api some breeds are missing so it will return a blank result 
+
+ 
