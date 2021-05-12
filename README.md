@@ -19,10 +19,11 @@ Any new commits to the master branch will enable a continuous deployment to Azur
 # USE IN ACTION 
 
 1. First Page
-2. 
+
 [![dfgdfgfdgdfgdfgfdgdfgfdg.jpg](https://i.postimg.cc/wTyhkN4K/dfgdfgfdgdfgdfgfdgdfgfdg.jpg)](https://postimg.cc/8jGJp7Vw)
 
-2. Type dog breed For example:  beagle, boxer, poodle. Please use lower case and refer to dog breeds in the https://dog.ceo/dog-api/breeds-list
+2. Type dog breed For example:  beagle, boxer, poodle. 
+   Please use lower case and refer to dog breeds in the https://dog.ceo/dog-api/breeds-list
 
 [![sdfsdfsdfsdfsdjgfdjgfjkghksjhdgjsdgsdg.jpg](https://i.postimg.cc/KvSYdgvh/sdfsdfsdfsdfsdjgfdjgfjkghksjhdgjsdgsdg.jpg)](https://postimg.cc/BtpsFbKm)
 
