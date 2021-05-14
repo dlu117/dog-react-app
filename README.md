@@ -10,7 +10,7 @@ website endpoint: https://dog-react-app.azurewebsites.net/
 ##  Build Piplines
 
 Build pipline built using Azure and any new commits to the master or develop branch will facilate 
-continuous deployment to create releases. The setting of this can be found in the yml file. The develop branch was subsequently added to allow the creation of addition branches to be deployed as the appp is developed further. 
+continuous deployment to create releases. The setting of this can be found in the yml file. The develop branch was subsequently added to allow the creation of addition branches to be deployed as the app is developed further. 
 
 ## Release Piplines 
 
